@@ -1,11 +1,22 @@
-# latent semantic analysis(LSA)
-Keywords: flask, numpy, sklearn, python, latent semantic analysis <br>
+# Latent Semantic Analysis(LSA)
+Last Update: 2020/06/08
+
+<img src=/lsa_overview.png height="700"></img>
+
+# Feature
 When you enter your documents and topic names, LSA offers a topic name that each document is most related. <br>
+
 e.g. document: I like studying the greenhouse effect. <br>
      topic names: environment, cuisine, sports...<br>
      result: environment<br>
      
-<img src=/lsa_overview.png height="700"></img>
+문서와 토픽 이름 입력시 개별문서와 매칭되는 토픽 이름이 매칭 됩니다. 
+
+# Latent Semantic Analysis was developed using 
+flask, numpy, sklearn, python, latent semantic analysis <br>
+
+# Latent Semantic Analysis was developed by 
+heesunlee9 in December 2019.
 
 # How to Start
 1. pip install virtualenv
